@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  ZB Damane | 2026666848
+  File: contact.html
+  Contact & Enquiry page for "The Royal Whisk by Princess"
+  CSIS1664 (2026) Website Project
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Royal Whisk by Princess | Contact &amp; Enquiry</title>
+<link rel="stylesheet" href="styles/modern-normalize.css">
+<link rel="stylesheet" href="styles/style_glass.css">
+</head>
+<body>
+<div id="container">
+<header class="site-header">
+  <img src="images/royal_Logo.jpeg" alt="Logo of the Royal Whisk" width="265" height="162" class="logo">
+  <div class="header-inner site-container">
+    <h1 class="site-title"><a href="index.html">The Royal Whisk by Princess</a></h1>
+    <p class="site-tagline">Handcrafted cakes, cupcakes &amp; dessert platters</p>
+    <div class="royal-seal">Since<br>2026</div>
+  </div>
+</header>
+
+<nav class="main-nav">
+  <div class="site-container">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catalogue.html">Product Catalogue</a></li>
+      <li><a href="pricing.html">Price Guide</a></li>
+      <li><a href="about.html">About &amp; Process</a></li>
+      <li><a href="contact.html">Contact &amp; Enquiry</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="site-container">
+
+    <section>
+      <h2>Get in touch</h2>
+      <div class="column-row">
+
+        <div class="column-main">
+          <p>Fill in the form below with your order details, and we'll reply
+          with a fixed quote and any questions we might have. You can also
+          reach us directly:</p>
+          <ul>
+            <li> Order via WhatsApp: 078 040 4846</li>
+            <li><a href="mailto:princessdamane275@gmail.com">Email: princessdamane275@gmail.com</a></li>
+            <li>Based in:Thaba Nchu, 10 Garona Military Village &ndash; Next to Bartimea School for the Blind &amp; Deaf</li>
+          </ul>
+          <p>Curious about baking in general? Read more on
+          <a href="https://en.wikipedia.org/wiki/Baking" target="_blank" rel="noopener">the history and craft of baking</a>
+          (opens in a new tab).</p>
+
+          <form class="enquiry-form" action="success.html" method="get">
+            <p class="required-note">All fields marked * are required.</p>
+
+            <div class="form-row">
+              <label for="full-name">Full name *</label>
+              <input type="text" id="full-name" name="full-name" required>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email address *</label>
+              <input type="email" id="email" name="email" placeholder="username@example.com" required>
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Phone number *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            
+
+            <div class="form-row">
+              <label for="product">Product you're interested in</label>
+              <select id="product" name="product">
+                <option value="cake">Celebration cake</option>
+                <option value="cupcakes">Cupcakes</option>
+                <option value="platter">Dessert platter</option>
+                <option value="custom" selected>Custom request</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="quantity">Quantity *</label>
+              <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+           </div>
+
+
+            <div class="form-row">
+              <label for="message">Tell us about your order *</label>
+              <textarea id="message" name="message" placeholder="Specify flavors, colors, allergies or event dates..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Send enquiry</button>
+          </form>
+        </div>
+
+        
+          <aside>
+          <h3>Ordering tips</h3>
+          <ul>
+            <li>Check the <a href="pricing.html">price guide</a> before you enquire.</li>
+            <li>Mention any allergies or dietary needs.</li>
+            <li>The earlier you book, the more design options are available.</li>
+          </ul>
+          </aside>
+       
+
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+   <div class="site-container">
+     <p>Created by: <a href="../myindex.html">ZB. Damane (2026666848)</a></p>
+    <p>&copy; 2026 The Royal Whisk by Princess. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
